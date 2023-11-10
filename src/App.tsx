@@ -15,8 +15,8 @@ function App() {
         </a>
       </div>
       <h1 className="text-lg text-blue-400">
-        MiniDapp Skeleton, <br />
-        (React TS + Vite + TailwindCSS) v{new Decimal(2).toNumber()}
+        MiniDapp Skeleton v{new Decimal(2).toNumber()}, <br />
+        (React TS + Vite + TailwindCSS)
       </h1>
     </>
   );
