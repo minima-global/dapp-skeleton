@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-*.mds.zip
+*.zip
 node_modules
 build
 dist
