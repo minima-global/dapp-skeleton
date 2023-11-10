@@ -1,4 +1,5 @@
 import viteLogo from "/vite.svg";
+import Decimal from "decimal.js";
 import "./App.css";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       </div>
       <h1 className="text-lg text-blue-400">
         MiniDapp Skeleton, <br />
-        (React TS + Vite + TailwindCSS)
+        (React TS + Vite + TailwindCSS) v{new Decimal(2).toNumber()}
       </h1>
     </>
   );
