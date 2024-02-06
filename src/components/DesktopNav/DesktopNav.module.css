@@ -1,0 +1,15 @@
+.desktop__navigation {
+  display: none;
+  margin: 0 32px;
+}
+@media only screen and (min-width: 590px) {
+  .desktop__navigation {
+    display: block;
+  }
+  .desktop__navigation nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 69px;
+    gap: 16px;
+  }  
+}

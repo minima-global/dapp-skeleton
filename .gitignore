@@ -1,3 +1,6 @@
+# wagmi stuff
+generated.*
+
 # Logs
 logs
 *.log
